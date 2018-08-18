@@ -7,15 +7,17 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
     font-size: 100%;
 	background:	#fff;
-	font-family:'Open Sans', sans-serif;
+	font-family: 'Portrait Regular', serif;
+    font-style: normal;
+    font-weight: 400;
 }
 p{
 	margin:0;
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Glegoo', 
-    serif;
+	font-family: "Portrait Text Regular","Georgia",serif;
+    font-weight: 400;
 	margin:0;
 }
 ul,label{
@@ -37,24 +39,49 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 .w3l_login{
 	float:left;
+margin-left: 23em;
+   
+
+
+
 }
 .w3l_logo{
 	float:left;
-	margin-left:24em;
+margin-left: 0em;
+
 }
 .w3l_logo h1 a{
-	font-size:1.1em;
+	font-size:1.2em;
 	color:#212121;
 	text-decoration:none;
+    box-sizing: border-box;
+    line-height: 1em;
+    font-family: 'Portrait Regular', serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+            font-feature-settings: "lnum";
+  -webkit-font-smoothing: antialiased;
 }
+
+
 .w3l_logo h1 a span {
+    
     display: block;
-    font-size: .3em;
+    font-size: .4em;
     text-transform: capitalize;
     letter-spacing: 7px;
     padding-left: 4px;
     text-align: center;
     margin-top: 0.5em;
+    box-sizing: border-box;
+    line-height: 1em;
+    font-family: 'Portrait Regular', serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+        font-feature-settings: "lnum";
+            -webkit-font-smoothing: antialiased;
 }
 .w3l_login a {
     font-size: .8em;
@@ -349,7 +376,7 @@ p.sbmincart-empty-text {
 /*-- //cart-css --*/ 
 /*-- navigation --*/
 .navbar-default .navbar-nav > li > a {
-    color: #fff;
+    color: #000;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all; 
 	transition:.5s all;
@@ -401,7 +428,7 @@ ul.multi-column-dropdown h6 {
     margin-left: 1em;
     padding: .1em .5em;
     background:#ff5063;
-    color: #fff;
+    color: #000;
 }
 .multi-column-dropdown li a i {
     font-size: 1.1em;
@@ -431,16 +458,16 @@ ul.multi-column-dropdown h6 {
     background: none;
 }
 .navbar-nav > li > a {
-    padding: 29px 18px 0;
+    padding: 25px 18px 0;
 }
 .navbar-nav > li > a {
-    padding: 20px 30px;
-    font-size: 14px;
+    padding: 0px 20px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color:#00cc44;
+    color:#737373; /*hover*/ 
 }
 .navbar {
     margin-bottom: 0;
@@ -449,13 +476,13 @@ ul.multi-column-dropdown h6 {
 .navigation {
     margin: 2em 0 0;
 	text-align:center;
-	background:#737373;
+	background:#fff; /*colour of nav bar*/
 }
 .navbar-nav {
     float: none;
 }
 .navbar-nav > li:nth-child(1) {
-    margin-left: 12em;
+    margin-left: 13em;
 } 
 .w3ls_products_pos h4 {
     font-size: 2em;
@@ -900,20 +927,20 @@ li.w3pages .dropdown-menu > li > a:hover{
 /*-- //banner-bottom --*/
 /*-- special-deals --*/
 .special-deals h2,.new-products h3,.top-brands h3,.w3l_related_products h3,.team h3, .about h3, .mail h3,h3.agileits-title{
-	font-size:2em;
+	font-size:4em;
 	color:#212121;
 	position:relative;
 	padding-bottom:1em;
 	text-align:center;
 }
 .special-deals h2:before,.new-products h3:before,.top-brands h3:before,.about h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before,h3.agileits-title:before{
-	content: '';
+	/*content: '';
     position: absolute;
     top: 27%;
     left: 29%;
     background: #00cc44;
     height: 1px;
-    width: 10%;
+    width: 10%;*/
 }
 .special-deals h2:after,.new-products h3:after,.top-brands h3:after,.w3l_related_products h3:after,.team h3:after,.mail h3:after,h3.agileits-title:after{
 	/*content: '';
@@ -1245,7 +1272,7 @@ ul.wmuSliderPagination {
 }
 /*-- newsletter --*/
 .newsletter{
-	background:#737373;
+	background:#000;
 	padding:3em 0;
 }
 .w3agile_newsletter_left h3{
@@ -1275,14 +1302,14 @@ ul.wmuSliderPagination {
 	outline: none;
     padding: 9px 0;
     width: 15%;
-    background: url(../images/img-sp.png) no-repeat 26px -65px #00cc44;
+    background: url(../images/img-sp.png) no-repeat 26px -65px #737373;
     border: none;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	transition:.5s all;
 }
 .w3agile_newsletter_right input[type="submit"]:hover{
-    background-color:#212121;
+    background-color:#000;
 }
 /*-- //newsletter --*/
 /*-- footer --*/
@@ -2554,6 +2581,18 @@ h2.typoh2{
 	font-size:1.5em;
 	top: 1em;
 }
+
+
+.w3ls_about_grid_home p{
+    color:#000;
+    line-height:1.8em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    padding-right:0em;
+     
+}
 /*-- //about --*/
 /*-- team --*/
 .team {
@@ -3078,6 +3117,10 @@ td.invert-image a img {
 	} 
 }
 @media (max-width: 1280px){
+
+    .navbar-nav > li:nth-child(1) {
+        margin-left: 12em;
+    }
 	.w3view-cart { 
 		right: 10%; 
 	}
@@ -3102,6 +3145,7 @@ td.invert-image a img {
 	.banner1 h2, .banner2 h2, .banner3 h2{
 		font-size: 1.8em;
 	} 
+
 }
 @media (max-width: 1080px){
 	#w3lssbmincart{ 
@@ -3111,8 +3155,11 @@ td.invert-image a img {
 		padding: 2em 3em !important;
 	}
 	.w3l_logo {
-		margin-left: 13em;
+		margin-left: 0em;
 	} 
+    .w3l_login {
+        margin-left: 18em;
+    } 
 	.banner.banner10 {
 		min-height: 255px;
 	}
@@ -3120,7 +3167,7 @@ td.invert-image a img {
 		padding: 2em 0 0; 
 	}
 	.navbar-nav > li:nth-child(1) {
-		margin-left: 6em;
+		margin-left: 0em;
 	}
 	.banner h3 {
 		width: 40%;
@@ -3264,13 +3311,16 @@ td.invert-image a img {
 		margin: .6em 0 0 4em;
 	} 
 	.w3l_logo {
-		margin-left: 9em;
-	}
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 13em;
+    } 
 	.navbar-nav > li > a {
-		padding: 20px 20px !important;
+		padding: 0px 15px !important;
 	}
 	.navbar-nav > li:nth-child(1) {
-		margin-left: 4em;
+		margin-left: 0em;
 	}
 	.banner h3 {
 		width: 50%;
@@ -3632,7 +3682,7 @@ td.invert-image a img {
 }
 @media (max-width:768px){
 	.navbar-nav > li:nth-child(1) {
-		margin-left: 3em;
+		margin-left: 0em;
 	}
 	.w3agile_special_deals_grid_left {
 		padding-left: 1em;
@@ -3665,7 +3715,7 @@ td.invert-image a img {
 		margin-right: 0;
 	}
 	.navbar-default .navbar-toggle .icon-bar {
-		background-color: #fff;
+		background-color: #000;
 	}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background: transparent;
@@ -3740,7 +3790,7 @@ td.invert-image a img {
 		color: #fff;
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-		color: #00cc44; 
+		color: #000; 
 	}
 	.nbs-flexisel-item > img { 
 		width: 60%;
@@ -3771,8 +3821,11 @@ td.invert-image a img {
 		margin: 3em auto 2em;
 	}
 	.w3l_logo {
-		margin-left: 6em;
-	}
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 12em;
+    } 
 	.social li {
 		height: 2em;
 		line-height: 2em;
@@ -3826,8 +3879,11 @@ td.invert-image a img {
 		letter-spacing: 5px;
 	}
 	.w3l_logo {
-		margin-left: 5em;
-	}
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 10em;
+    } 
 	.search_box:checked~.search_form {
 		width: 440px;
 	}
@@ -3866,8 +3922,11 @@ td.invert-image a img {
 		padding: 2em 1em !important;
 	}
 	.w3l_logo {
-		margin-left: 9em;
-	}
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 9em;
+    } 
 	.search {
 		float: right;
 	}
@@ -4061,8 +4120,11 @@ td.invert-image a img {
 		width: 55%;
 	}
 	.w3l_logo {
-		margin-left: 6em;
-	}
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 8em;
+    } 
 	.w3l_login a { 
 		width: 40px;
 		height: 40px; 
@@ -4101,8 +4163,11 @@ td.invert-image a img {
 		margin: .3em;
 	}
 	.w3l_logo {
-		margin-left: 6em;
-	}
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 6em;
+    } 
 	.search {
 		margin: 0.7em 0 0 0;
 	}
@@ -4154,9 +4219,12 @@ td.invert-image a img {
 		margin-top: 1.3em;
 		right: 11%;
 	} 
-	.w3l_logo h1 a {
-		font-size: .7em;
-	}
+	.w3l_logo {
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 4em;
+    } 
 	.modal-dialog {
 		width: 435px;
 	}
@@ -4188,9 +4256,7 @@ td.invert-image a img {
 	.banner h3 {
 		width: 70%;
 	}
-	.w3l_logo {
-		margin-left: 4em;
-	}
+
 	.video-img a {
 		margin: 8em 0em 0 11.5em;
 	}
@@ -4488,8 +4554,11 @@ td.invert-image a img {
 		font-size: .4em;
 	}
 	.w3l_logo {
-		margin-left: 3em;
-	}
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 3em;
+    } 
 	.search_box:checked~.search_form {
 		width: 365px;
 	}
