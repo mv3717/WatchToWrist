@@ -35,19 +35,22 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 	-o-transition:.5s ease-in-out;
 }
 .header {
-    padding: 2em 0 0;
+    padding: 1.5em 0 0;
 }
 .w3l_login{
 	float:left;
-margin-left: 23em;
+margin-left: 25em;
    
 
 
 
 }
 .w3l_logo{
-	float:left;
-margin-left: 0em;
+	float:center;
+    margin-left: 0em;
+    margin-top: 1em;
+
+
 
 }
 .w3l_logo h1 a{
@@ -62,6 +65,7 @@ margin-left: 0em;
     text-align: center;
             font-feature-settings: "lnum";
   -webkit-font-smoothing: antialiased;
+
 }
 
 
@@ -521,6 +525,9 @@ li.w3pages .dropdown-menu > li > a:hover{
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	min-height:700px;
+    margin-left: 1em;
+    margin-right: 1em;
+
 } 
 .banner.banner10{
 	min-height:300px;
