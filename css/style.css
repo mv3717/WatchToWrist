@@ -2585,12 +2585,16 @@ h2.typoh2{
 /*-- //pages --*/  
 /*-- faq --*/
 .w3l_faq_grid h3{
-	font-size:1.3em;
+font-family: 'Source Sans Pro', sans-serif;
+	font-size:1.5em;
 	color:#212121;
 	line-height:1.5em;
 	margin-bottom:1em;
 }
 .w3l_faq_grid p{
+    font-family: 'Source Sans Pro', sans-serif;
+        font-size:1em;
+
 	color:#999;
 	line-height:1.8em;
 }
