@@ -175,7 +175,7 @@ label.icon-search {
 .search_form input[type='submit']:hover{
 	background:#fff;
 	border:1px solid #fff;
-	color:#212121;
+	color:#999999;
 }
 .search_box{
 	visibility: hidden;
@@ -355,7 +355,7 @@ p.sbmincart-empty-text {
     margin-right: 6px;
     padding: 0;
     border: none;
-    color: #ff5063;
+    color: #000;
     background: none;
     outline: none;
     font-size: 0.9em;
@@ -2706,11 +2706,11 @@ h2.typoh2{
 /*-- //team-bottom --*/
 /*-- mail --*/
 .agile_mail_grids{
-	margin:3em 0 0;
+	margin:-8em 0 0;
 }
 .contact-left h4{
 	font-size: 1.5em;
-	color:#3c43a4;
+	color:#000;
 	margin:0 0 1em;
 }
 .contact-left p{
@@ -2768,7 +2768,7 @@ h2.typoh2{
     font-size: 1em;
     padding: 10px 0;
     width: 35%;
-    background: #ff5063;
+    background: #000;
     border: none;
     transition: .5s all;
     -webkit-transition: .5s all;
@@ -2777,7 +2777,7 @@ h2.typoh2{
     -ms-transition: .5s all;
 }
 .contact-left input[type="submit"]:hover{
-	background:#3c43a4;
+	background:#999999;
 }
 .contact-bottom{
 	margin:3em 0 0;
@@ -3027,7 +3027,7 @@ div#horizontalTab1 ul {
 	border:none;
 }
 .review_grids input[type="submit"]:hover{
-	background:#3c43a4;
+	background:#000;
 }
 .review_grids form {
     width: 70%;
