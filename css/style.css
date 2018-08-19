@@ -36,6 +36,29 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid black;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    transition-duration: 1.2s;
+ }
+ button:hover{
+    background-color: slategray;
+    background-repeat:no-repeat;
+    border: 1px solid transparent;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    height: 35px ;
+    width: auto;
+    transition-duration: 1.2s;
+    color: whitesmoke;
+}
+
 /*-- header --*/
 input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_info_sub_grid_right a,.panel_bottom li a,.panel-title a,.breadcrumb_dress ul li a,.multi-column-dropdown li a,.footer-copy p a,.w3_footer_grid ul li a,.agileinfo_banner_bottom1_grid_left a,.navbar-default .navbar-nav > li > a,.simpleCart_shelfItem p a,.agile_ecommerce_tab_left h5 a,.w3_hs_bottom ul li a,.team-bottom a{
 	transition:.5s ease-in-out;
