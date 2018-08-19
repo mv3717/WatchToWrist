@@ -39,20 +39,14 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 .w3l_login{
 	float:left;
-margin-left: 25em;
-   
-
-
-
+    margin-left: 28em;
 }
 .w3l_logo{
 	float:center;
     margin-left: 0em;
     margin-top: 1em;
-
-
-
 }
+
 .w3l_logo h1 a{
 	font-size:1.2em;
 	color:#212121;
@@ -955,7 +949,9 @@ li.w3pages .dropdown-menu > li > a:hover{
 	padding-bottom:1em;
 	text-align:center;
 
-    
+
+
+
 }
 .special-deals h2:before,.new-products h3:before,.top-brands h3:before,.about h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before,h3.agileits-title:before{
 	/*content: '';
@@ -3143,8 +3139,16 @@ td.invert-image a img {
 @media (max-width: 1280px){
 
     .navbar-nav > li:nth-child(1) {
-        margin-left: 12em;
+        margin-left: 13em;
     }
+
+    .w3l_logo {
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 25em;
+    } 
+
 	.w3view-cart { 
 		right: 10%; 
 	}
@@ -3171,6 +3175,49 @@ td.invert-image a img {
 	} 
 
 }
+
+
+@media (max-width: 1200px){
+
+    .navbar-nav > li:nth-child(1) {
+        margin-left: 7em;
+    }
+
+    .w3l_logo {
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 19em;
+    } 
+
+    .w3view-cart { 
+        right: 10%; 
+    }
+    #w3lssbmincart { 
+        left: 64%; 
+    }
+    .agileinfo_banner_bottom1_grid_left {
+        background-position: -155px 0px;
+    }
+    .agileinfo_banner_bottom1_grid_right h4 {
+        width: 30%;
+    }
+    .banner-bottom, .team, .checkout, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
+        padding: 4em 0;
+    }
+    .footer-copy-pos {
+        right: 5%;
+    }
+    .banner.banner1, .banner.banner2, .banner.banner3{
+        min-height: 355px;
+    }
+    .banner1 h2, .banner2 h2, .banner3 h2{
+        font-size: 1.8em;
+    } 
+
+}
+
+
 @media (max-width: 1080px){
 	#w3lssbmincart{ 
 		left: 58%; 
@@ -3326,7 +3373,7 @@ td.invert-image a img {
 		margin-top: -.3em;
 	}
 	.w3l_logo h1 a {
-		font-size: .9em;
+		font-size: 0.9em;
 	}
 	.w3l_logo h1 a span {
 		letter-spacing: 6px;
