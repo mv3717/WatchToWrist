@@ -63,8 +63,22 @@ margin-left: 25em;
     font-style: normal;
     font-weight: 400;
     text-align: center;
-            font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
   -webkit-font-smoothing: antialiased;
+
+   /* color:#000;
+
+
+ font-family: 'BrownPro Web Regular', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    display: block;
+    box-sizing: inherit;
+    line-height: 33px;
+    font-size: 1.1em;
+        text-transform: uppercase;
+    letter-spacing: 1px;*/
 
 }
 
@@ -934,11 +948,14 @@ li.w3pages .dropdown-menu > li > a:hover{
 /*-- //banner-bottom --*/
 /*-- special-deals --*/
 .special-deals h2,.new-products h3,.top-brands h3,.w3l_related_products h3,.team h3, .about h3, .mail h3,h3.agileits-title{
+
 	font-size:4em;
 	color:#212121;
 	position:relative;
 	padding-bottom:1em;
 	text-align:center;
+
+    
 }
 .special-deals h2:before,.new-products h3:before,.top-brands h3:before,.about h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before,h3.agileits-title:before{
 	/*content: '';
