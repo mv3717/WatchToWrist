@@ -4782,6 +4782,7 @@ td.invert-image a img {
 	.w3l_logo h1 a {
 		font-size: .65em;
 	}
+
 	.modal-dialog {
 		width: 365px;
 	}
@@ -4814,6 +4815,12 @@ td.invert-image a img {
 	.w3l_login {
 		margin: .8em 0 0;
 	}
+        .w3l_logo {
+        margin-left: 0em;
+    } 
+    .w3l_login {
+        margin-left: 1.7em;
+    } 
 	.box_1 {
 		margin-top: 60px;
 	}
