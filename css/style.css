@@ -7,18 +7,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 html, body{
     font-size: 100%;
 	background:	#fff;
-	font-family: 'Portrait Regular', serif;
+	font-family: 'Matteo', serif;
     font-style: normal;
     font-weight: 400;
+
 }
+
+@font-face {
+    font-family: 'Matteo'; /*a name to be used later*/
+    src: url('../fonts/ADAM.CG PRO.otf'); /*URL to font*/
+}
+
 p{
 	margin:0;
 	font-size:14px;
 }
 h1,h2,h3,h4,h5,h6{
-	font-family: "Portrait Text Regular","Georgia",serif;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 400;
 	margin:0;
+    font-weight: bold;
 }
 ul,label{
 	margin:0;
@@ -39,18 +47,20 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 .w3l_login{
 	float:left;
-    margin-left: 28em;
+    margin-left: 25em;
 }
 .w3l_logo{
 	float:center;
     margin-left: 0em;
-    margin-top: 1em;
+    margin-top: 1.3em;
 }
 
 .w3l_logo h1 a{
-	font-size:1.2em;
+	font-size:1em;
 	color:#212121;
-	text-decoration:none;
+     font-family: 'Matteo', serif;
+
+	/*text-decoration:none;
     box-sizing: border-box;
     line-height: 1em;
     font-family: 'Portrait Regular', serif;
@@ -58,7 +68,7 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
     font-weight: 400;
     text-align: center;
     font-feature-settings: "lnum";
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;*/
 
    /* color:#000;
 
@@ -533,8 +543,8 @@ li.w3pages .dropdown-menu > li > a:hover{
 	-o-background-size:cover;
 	-ms-background-size:cover;
 	min-height:700px;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
 
 } 
 .banner.banner10{
@@ -947,7 +957,10 @@ li.w3pages .dropdown-menu > li > a:hover{
 	color:#212121;
 	position:relative;
 	padding-bottom:1em;
-	text-align:center;
+	text-align:left;
+        padding-left:1em;
+
+
 
 
 
@@ -2604,12 +2617,14 @@ h2.typoh2{
 
 
 .w3ls_about_grid_home p{
+    font-family: 'Source Sans Pro', sans-serif;
+
     color:#000;
     line-height:1.8em;
     margin-bottom: 2em;
     font-size: 1.5em;
     width: 100%;
-    text-align: center;
+    text-align: left;§
     padding-right:0em;
      
 }
@@ -3146,7 +3161,7 @@ td.invert-image a img {
         margin-left: 0em;
     } 
     .w3l_login {
-        margin-left: 25em;
+        margin-left: 24em;
     } 
 
 	.w3view-cart { 
