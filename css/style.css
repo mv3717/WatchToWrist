@@ -1214,12 +1214,12 @@ ul.wmuSliderPagination {
     text-transform: uppercase;
     font-size: 1em;
     letter-spacing: 2px;
-    color: #fff;
+    color: #000;
     background: url(../images/img-sp.png) no-repeat 112px -4px;
     padding: 0 45px 0 0;
 }
 .agileinfo_banner_bottom1_grid_left a:hover,.team-bottom a:hover{
-	color:#212121;
+	color:#999999;
 	background:url(../images/img-sp.png) no-repeat 112px -38px;
 }
 .agileinfo_banner_bottom1_grid_right{
@@ -2694,7 +2694,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	text-align:center;
 }
 .team-bottom h3{
-	font-size:1.7em;
+	font-size:3em;
 	color:#212121;
 	line-height:1.5em;
 }
@@ -2702,6 +2702,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	color:#3c43a4;
 }
 .team-bottom p{
+        font-size:1.5em;
 	width:70%;
 	margin:1.5em auto 3em;
 	color:#999;
