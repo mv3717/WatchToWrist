@@ -3350,6 +3350,7 @@ td.invert-image a img {
 	.agile_ecommerce_tab_left h5 a {
 		font-size: 1.15em;
 	}
+
 }
 @media (max-width: 1024px){
 	.nbs-flexisel-nav-right {
@@ -3688,6 +3689,13 @@ td.invert-image a img {
 		width: 70%;
 		margin: 0 auto;
 	}
+     .about h3 {
+        font-size: 35px;
+    }
+
+    .w3ls_about_grid_home p {
+        font-size: 20px;
+    }
 }
 @media (max-width:800px){
 	#w3lssbmincart {
@@ -3750,6 +3758,7 @@ td.invert-image a img {
 	.w3agile_special_deals_grid_right_pos {
 		left: 23%;
 	}
+
 }
 @media (max-width:768px){
 	.navbar-nav > li:nth-child(1) {
@@ -3776,6 +3785,7 @@ td.invert-image a img {
 	.flex_ecommerce {
 		padding: 8em 0 0 !important;
 	}
+
 }
 @media (max-width:767px){
 	.navbar-default .navbar-toggle {
@@ -3873,6 +3883,14 @@ td.invert-image a img {
 	.banner10 h2 {
 		padding: 1.8em 0 0 .5em;
 	}
+
+     .about h3 {
+        font-size: 38px;
+    }
+
+    .w3ls_about_grid_home p {
+        font-size: 19px;
+    }
 }
 @media (max-width:736px){
 	#w3lssbmincart {
@@ -3938,6 +3956,13 @@ td.invert-image a img {
 	.modal-body {
 		padding: 0em 1em 1em;
 	}
+     .about h3 {
+        font-size: 35px;
+    }
+
+    .w3ls_about_grid_home p {
+        font-size: 17px;
+    }
 }
 @media (max-width:667px){
 	.modal-dialog {
@@ -3979,6 +4004,7 @@ td.invert-image a img {
 	.w3agile_special_deals_grid_right {  
 		width: 70%; 
 	}
+
 }
 @media (max-width:640px){
 	#w3lssbmincart {
@@ -4173,6 +4199,14 @@ td.invert-image a img {
 	.agile_ecommerce_tab_left h5 {
 		margin: 1em 0 0;
 	}
+
+     .about h3 {
+        font-size: 28px;
+    }
+
+    .w3ls_about_grid_home p {
+        font-size: 15px;
+    }
 }
 @media (max-width: 600px){
 	.modal-dialog {
@@ -4216,6 +4250,13 @@ td.invert-image a img {
 	.agileinfo_new_products_grid_mobiles { 
 		padding: 0 .5em;
 	}
+     .about h3 {
+        font-size: 25px;
+    }
+
+    .w3ls_about_grid_home p {
+        font-size: 15px;
+    }
 }
 @media (max-width:568px){
 	#w3lssbmincart {
@@ -4599,6 +4640,13 @@ td.invert-image a img {
 	.banner.banner10 {
 		min-height: 145px;
 	}
+    .about h3 {
+        font-size: 22px;
+    }
+
+    .w3ls_about_grid_home p {
+        font-size: 15px;
+    }
 }
 @media (max-width: 414px){
 	#w3lssbmincart {
