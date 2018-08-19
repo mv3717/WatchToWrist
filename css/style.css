@@ -4,6 +4,10 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+
+
 html, body{
     font-size: 100%;
 	background:	#fff;
@@ -11,12 +15,38 @@ html, body{
     font-style: normal;
     font-weight: 400;
 }
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 1px solid black;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    transition-duration: 1.2s;
+
+}
+
+button:hover{
+    background-color: slategray;
+    background-repeat:no-repeat;
+    border: 1px solid transparent;
+    cursor:pointer;
+    overflow: hidden;
+    outline: none;
+    height: 35px ;
+    width: auto;
+    transition-duration: 1.2s;
+    color: whitesmoke;
+}
+
 p{
 	margin:0;
 	font-size:14px;
 }
+
 h1,h2,h3,h4,h5,h6{
-	font-family: "Portrait Text Regular","Georgia",serif;
+    font-family: 'Portrait Regular', serif;
     font-weight: 400;
 	margin:0;
 }
