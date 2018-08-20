@@ -13,6 +13,46 @@ html, body{
 
 }
 
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.4;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #fb3958;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+
 @font-face {
     font-family: 'Matteo'; /*a name to be used later*/
     src: url('../fonts/ADAM.CG PRO.otf'); /*URL to font*/
@@ -1238,12 +1278,12 @@ ul.wmuSliderPagination {
     font-size: 1em;
     letter-spacing: 2px;
     color: #000;
-    background: url(../images/img-sp.png) no-repeat 112px -4px;
-    padding: 0 45px 0 0;
+    background: url(../images/img-sp.png) no-repeat 112px -10px;
+    padding: 0 45px 5px 0;
 }
 .agileinfo_banner_bottom1_grid_left a:hover,.team-bottom a:hover{
 	color:#999999;
-	background:url(../images/img-sp.png) no-repeat 112px -38px;
+	background:url(../images/img-sp.png) no-repeat 112px -42px;
 }
 .agileinfo_banner_bottom1_grid_right{
 	background:url(../images/watch.jpg) no-repeat 0px 0px;
@@ -1389,7 +1429,7 @@ ul.wmuSliderPagination {
 }
 .w3_footer_grid h3:after{
 	content:'';
-	background:#3c43a4;
+	background:#000;
 	width:20%;
 	height:2px;
 	position:absolute;
@@ -1405,7 +1445,7 @@ ul.wmuSliderPagination {
     list-style-type: none;
     margin-bottom: 1em;
     color: #999;
-    font-size: 14px;
+    font-size: 13px;
 }
 .w3_footer_grid ul.address li i {
     color:#414141;
@@ -1426,12 +1466,12 @@ ul.wmuSliderPagination {
 }
 .w3_footer_grid ul.info li a {
     padding-left:2.2em;
-    background: url(../images/img-sp.png) no-repeat -6px -98px;
+    background: url(../images/img-sp.png) no-repeat -8px -102px;
 }
 .w3_footer_grid h4{
 	margin:2em 0 1em;
 	font-size:1.2em;
-	color:#3c43a4;
+	color:#000;
 }
 /*-- social-buttons --*/
 .agileits_social_button ul li{
@@ -1457,6 +1497,7 @@ ul.wmuSliderPagination {
 } 
 .agileits_social_button ul li a.pinterest{
 	background-position:-123px -130px; 
+
 }
 .agileits_social_button ul li a:hover {
     background-color: #3c43a4;
@@ -1476,20 +1517,20 @@ ul.wmuSliderPagination {
     bottom: -75%;
     width: 50px;
     height: 50px;
-    border: 3px solid #00cc44;
+    border: 3px solid #000;
     border-radius: 25px;
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -o-border-radius: 25px;
     -ms-border-radius: 25px;
-    box-shadow: 0px 0px 5px 0px #00cc44;
+    box-shadow: 0px 0px 5px 0px #000;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all; 
 	transition:.5s all;
 	
 }
 .footer-copy-pos:hover {
-    box-shadow: 0px 0px 30px 5px #00cc44;
+    box-shadow: 0px 0px 30px 5px #000;
 }
 .footer-copy p{
 	margin:4em 0 0;
@@ -2691,6 +2732,7 @@ font-family: 'Source Sans Pro', sans-serif;
     font-weight: 500;
 }
 .wthree_team_grids p{
+    font-size: 1.4em; 
 	width: 65%;
     margin: 3em auto 0;
     text-align: center;
@@ -2720,6 +2762,7 @@ font-family: 'Source Sans Pro', sans-serif;
 	font-size:3em;
 	color:#212121;
 	line-height:1.5em;
+
 }
 .team-bottom h3 span{
 	color:#3c43a4;
