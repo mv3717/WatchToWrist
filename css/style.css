@@ -14,7 +14,7 @@ html, body{
 }
 
 .int-image{
-    width:90%;
+    width:95%;
     transition-duration: 1s;
     transition-delay: .2s;
 }
