@@ -23,6 +23,10 @@ html, body{
     border-radius: 50%;
 }
 
+#my-img:hover {
+    content: url('../images/watch2.jpg');
+}
+
 /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.4;
@@ -548,9 +552,22 @@ ul.multi-column-dropdown h6 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.navbar-nav2 > li > a {
+    padding: 0px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color:#737373; /*hover*/ 
 }
+
+.navbar-default .navbar-nav2 > li > a:hover, .navbar-default .navbar-nav2 > li > a:focus {
+    color:#737373; /*hover*/ 
+}
+
 .navbar {
     margin-bottom: 0;
 	z-index: 100;
@@ -566,6 +583,11 @@ ul.multi-column-dropdown h6 {
 .navbar-nav > li:nth-child(1) {
     margin-left: 13em;
 } 
+
+.navbar-nav > li:nth-child(1) {
+    margin-left: 13em;
+} 
+
 .w3ls_products_pos h4 {
     font-size: 2em;
     text-align: right;
