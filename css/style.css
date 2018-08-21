@@ -80,23 +80,20 @@ body a:hover{
 button {
     background-color: Transparent;
     background-repeat:no-repeat;
-    border: 1px solid black;
     cursor:pointer;
     overflow: hidden;
     outline: none;
-    transition-duration: 1.2s;
+    border: none;
+    transition-duration: 1s;
+        font-family: 'Matteo'; /*a name to be used later*/
+            font-size: 18px;
+
+
+
  }
  button:hover{
-    background-color: slategray;
-    background-repeat:no-repeat;
-    border: 1px solid transparent;
-    cursor:pointer;
-    overflow: hidden;
-    outline: none;
-    height: 35px ;
-    width: auto;
-    transition-duration: 1.2s;
-    color: whitesmoke;
+   
+    color: #999999;
 }
 
 /*-- header --*/
@@ -231,7 +228,6 @@ label.icon-search {
     display: inline-block;
     color: #fff;
     font-size: 14px;
-    border: 1px solid #999;
     text-transform: uppercase;
     padding: 10px 28px;
 }
@@ -418,7 +414,7 @@ p.sbmincart-empty-text {
     margin-right: 6px;
     padding: 0;
     border: none;
-    color: #000;
+    color: #fff;
     background: none;
     outline: none;
     font-size: 0.9em;
@@ -811,13 +807,11 @@ li.w3pages .dropdown-menu > li > a:hover{
 }
 .simpleCart_shelfItem button.w3ls-cart {
     font-size: 14px;
-    color: #000;
+    color: #fff;
     margin: 0;
     text-decoration: none;
     text-transform: capitalize;
     padding: .5em 1.5em;
-    border: 1px solid #c1c1c1;
-    border-radius: 5px;
     background: transparent;
     outline: none;
 	-webkit-transition:.5s all;
@@ -825,9 +819,8 @@ li.w3pages .dropdown-menu > li > a:hover{
 	transition:.5s all;
 }
 .simpleCart_shelfItem button.w3ls-cart:hover{
-	background:#3c43a4;
+	background:#fff;
 	color:#fff;
-	border:1px solid #3c43a4;
 }
 /*-- image-hover --*/
 .w3_hs_bottom{
@@ -1033,6 +1026,8 @@ li.w3pages .dropdown-menu > li > a:hover{
     padding-bottom:1em;
     text-align:left;
     padding-left:1.5em;
+        padding-right:1.5em;
+
 }
 
 .special-deals h2:before,.new-products h3:before,.top-brands h3:before,.about h3:before,.w3l_related_products h3:before,.team h3:before,.mail h3:before,h3.agileits-title:before{
@@ -1233,10 +1228,10 @@ ul.wmuSliderPagination {
     padding:9.5em 0 0 !important;
 }
 .new-products .simpleCart_shelfItem button.w3ls-cart {
-    border-color: #717171;
+    border-color: #fff;
 }
 .new-products .simpleCart_shelfItem p span {
-    color: #383838;  
+    color: #fff;  
 }
 /*-- //new-products --*/
 /*-- banner-bottom1 --*/
@@ -2572,6 +2567,18 @@ h2.typoh2{
 	}
 }
 @media (max-width:480px){
+
+    .about p {
+    font-size:1em;
+    color:#212121;
+    position:relative;
+    padding-bottom:1em;
+    text-align:left;
+    padding-left:2.5em;
+     padding-right:2.5em;
+
+}
+
 	h3.w3ls-hdg {
 		font-size: 1.2em;
 		margin: 1em 0 0.6em;
