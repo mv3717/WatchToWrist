@@ -101,7 +101,7 @@ button {
 }
 
 /*-- header --*/
-input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_info_sub_grid_right a,.panel_bottom li a,.panel-title a,.breadcrumb_dress ul li a,.multi-column-dropdown li a,.footer-copy p a,.w3_footer_grid ul li a,.agileinfo_banner_bottom1_grid_left a,.navbar-default .navbar-nav > li > a,.simpleCart_shelfItem p a,.agile_ecommerce_tab_left h5 a,.w3_hs_bottom ul li a,.team-bottom a{
+input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_info_sub_grid_right a,.panel_bottom li a,.panel-title a,.breadcrumb_dress ul li a,.multi-column-dropdown li a,.footer-copy p a,.w3_footer_grid ul li a,.agileinfo_banner_bottom1_grid_left a,.navbar-default .navbar-nav > li > a,.simpleCart_shelfItem p a,.agile_ecommerce_tab_left h5 a,.w3_hs_bottom ul li a,.team-bottom a, .team-bottom3 a, .team-bottom2 a{
 	transition:.5s ease-in-out;
 	-webkit-transition:.5s ease-in-out;
 	-moz-transition:.5s ease-in-out;
@@ -606,9 +606,7 @@ ul.multi-column-dropdown h6 {
 } 
 
 
-.navbar-nav2 > li:nth-child(1) {
-    margin-left: 13em;
-} 
+
 
 .navbar-nav2 > li:nth-child(1) a{
     font-size: 3em;
@@ -739,7 +737,7 @@ li.w3pages .dropdown-menu > li > a:hover{
 }
 /*-- //banner --*/
 /*-- banner-bottom --*/
-.banner-bottom,.team,.checkout,.additional_info,.team-bottom,.single,.mail,.special-deals,.about,.faq,.typo,.new-products,.banner-bottom1,.top-brands,.mobiles,.w3l_related_products{
+.banner-bottom,.team,.checkout,.additional_info,.team-bottom, .team-bottom3, .team-bottom2,.single,.mail,.special-deals,.about,.faq,.typo,.new-products,.banner-bottom1,.top-brands,.mobiles,.w3l_related_products{
 	padding:5em 0;
 }
 .modal-body iframe {
@@ -1329,7 +1327,7 @@ ul.wmuSliderPagination {
 .agileinfo_banner_bottom1_grid_left h3 span i{
 	color:#212121;
 }
-.agileinfo_banner_bottom1_grid_left a,.team-bottom a{
+.agileinfo_banner_bottom1_grid_left a,.team-bottom a, .team-bottom3 a{
 	text-align: right;
     text-decoration: none;
     text-transform: uppercase;
@@ -1339,10 +1337,44 @@ ul.wmuSliderPagination {
     background: url(../images/img-sp.png) no-repeat 112px -10px;
     padding: 0 45px 5px 0;
 }
+
+.team-bottom2 a{
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #000;
+    background: url(../images/img-sp.png) no-repeat 155px -10px;
+    padding: 0 45px 5px 0;
+}
+
+.team-bottom3 a{
+    text-align: right;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    letter-spacing: 2px;
+    color: #000;
+    background: url(../images/img-sp.png) no-repeat 85px -10px;
+    padding: 0 45px 5px 0;
+}
 .agileinfo_banner_bottom1_grid_left a:hover,.team-bottom a:hover{
 	color:#999999;
 	background:url(../images/img-sp.png) no-repeat 112px -42px;
 }
+
+.team-bottom2 a:hover{
+    color:#999999;
+    background:url(../images/img-sp.png) no-repeat 155px -42px;
+}
+
+.team-bottom3 a:hover{
+    color:#999999;
+    background:url(../images/img-sp.png) no-repeat 85px -42px;
+}
+
+
 .agileinfo_banner_bottom1_grid_right{
 	background:url(../images/watch.jpg) no-repeat 0px 0px;
 	background-size:cover;
@@ -2838,11 +2870,51 @@ font-family: 'Source Sans Pro', sans-serif;
 	color:#3c43a4;
 }
 .team-bottom p{
-        font-size:1.5em;
+    font-size:1.5em;
 	width:70%;
 	margin:1.5em auto 3em;
 	color:#999;
 	line-height:1.8em;
+}
+
+.team-bottom2{
+    text-align:center;
+}
+.team-bottom2 h3{
+    font-size:3em;
+    color:#212121;
+    line-height:1.5em;
+
+}
+.team-bottom2 h3 span{
+    color:#3c43a4;
+}
+.team-bottom2 p{
+    font-size:1.5em;
+    width:70%;
+    margin:1.5em auto 3em;
+    color:#999;
+    line-height:1.8em;
+}
+
+.team-bottom3{
+    text-align:center;
+}
+.team-bottom3 h3{
+    font-size:3em;
+    color:#212121;
+    line-height:1.5em;
+
+}
+.team-bottom3 h3 span{
+    color:#3c43a4;
+}
+.team-bottom3 p{
+    font-size:1.5em;
+    width:70%;
+    margin:1.5em auto 3em;
+    color:#999;
+    line-height:1.8em;
 }
 /*-- //team-bottom --*/
 /*-- mail --*/
@@ -3327,7 +3399,7 @@ td.invert-image a img {
 	.agileinfo_banner_bottom1_grid_right h4 {
 		width: 30%;
 	}
-	.banner-bottom, .team, .checkout, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
+	.banner-bottom, .team, .checkout, .additional_info, .team-bottom, .team-bottom3, .team-bottom2, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
 		padding: 4em 0;
 
 	}
@@ -3371,7 +3443,7 @@ td.invert-image a img {
     .agileinfo_banner_bottom1_grid_right h4 {
         width: 30%;
     }
-    .banner-bottom, .team, .checkout, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
+    .banner-bottom, .team, .checkout, .additional_info, .team-bottom, .team-bottom3, .team-bottom2, ..single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
         padding: 4em 0;
     }
     .footer-copy-pos {
@@ -3624,7 +3696,7 @@ td.invert-image a img {
 	.agileinfo_banner_bottom1_grid_right {
 		padding: 8.5em 0 0;
 	}
-	.banner-bottom, .team, .checkout, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
+	.banner-bottom, .team, .checkout, .additional_info, .team-bottom, .team-bottom3, .team-bottom2, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
 		padding: 3em 0;
 	}
 	.special-deals h2, .new-products h3, .top-brands h3, .w3l_related_products h3, .team h3, .mail h3, h3.agileits-title{
@@ -3815,12 +3887,20 @@ td.invert-image a img {
 	.wthree_team_grid:nth-child(2) {
 		margin:0 0 2em;
 	}
-	.wthree_team_grids p,.team-bottom p {
+	.wthree_team_grids p,.team-bottom p, .team-bottom3 p, .team-bottom2 p {
 		width: 100%;
 	}
 	.team-bottom h3 {
 		font-size: 1.44em;
 	}
+
+    .team-bottom2 h3 {
+        font-size: 1.44em;
+    }
+
+    .team-bottom3 h3 {
+        font-size: 1.44em;
+    }
 	.contact-left:nth-child(2) {
 		margin: 2em 0 0;
 	}
@@ -4254,7 +4334,7 @@ td.invert-image a img {
 	.w3agile_special_deals_grid_right {
 		width: 72%;
 	}
-	.banner-bottom, .team, .checkout, .additional_info, .team-bottom, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
+	.banner-bottom, .team, .checkout, .additional_info, .team-bottom, .team-bottom2,.team-bottom3, .single, .mail, .special-deals, .about, .faq, .typo, .new-products, .banner-bottom1, .top-brands, .mobiles, .w3l_related_products {
 		padding: 2em 0;
 	} 
 	.w3_hs_bottom_sub ul {
@@ -4314,6 +4394,12 @@ td.invert-image a img {
 	.team-bottom h3 {
 		font-size: 1.3em;
 	}
+    .team-bottom2 h3 {
+        font-size: 1.3em;
+    }
+    .team-bottom3 h3 {
+        font-size: 1.3em;
+    }
 	.agile_mail_grids {
 		margin: 2em 0 0;
 	}
@@ -5059,6 +5145,20 @@ td.invert-image a img {
 	.team-bottom p {
 		margin: 1.5em auto 2em;
 	}
+
+    .team-bottom3 h3 {
+        font-size: 1.1em;
+    }
+    .team-bottom3 p {
+        margin: 1.5em auto 2em;
+    }
+
+    .team-bottom2 h3 {
+        font-size: 1.1em;
+    }
+    .team-bottom2 p {
+        margin: 1.5em auto 2em;
+    }
 	.contact-left {
 		padding: 0;
 	}
@@ -5230,11 +5330,11 @@ td.invert-image a img {
 	.wmuSliderPagination {
 		left: 41%;
 	}
-	.agileinfo_banner_bottom1_grid_left a, .team-bottom a {
+	.agileinfo_banner_bottom1_grid_left a, .team-bottom a, .team-bottom2 a, .team-bottom3 a {
 		font-size: 14px;
 		background: url(../images/img-sp.png) no-repeat 93px -5px;
 	}
-	.agileinfo_banner_bottom1_grid_left a:hover, .team-bottom a:hover {
+	.agileinfo_banner_bottom1_grid_left a:hover, .team-bottom a:hover,.team-bottom3 a:hover, .team-bottom2 a:hover {
 		background:url(../images/img-sp.png) no-repeat 93px -39px;
 	}
 	.top-brands img {
@@ -5318,6 +5418,13 @@ td.invert-image a img {
 	.team-bottom h3 {
 		font-size: 1em;
 	}
+
+    .team-bottom3 h3 {
+        font-size: 1em;
+    }
+    .team-bottom2 h3 {
+        font-size: 1em;
+    }
 	.faq {
 		padding: 2em 0 0;
 	}
