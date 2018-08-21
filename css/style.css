@@ -13,6 +13,8 @@ html, body{
 
 }
 
+
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
@@ -22,6 +24,7 @@ html, body{
     text-decoration: none;
     border-radius: 50%;
 }
+
 
 /* Add a hover effect if you want */
 .fa:hover {
