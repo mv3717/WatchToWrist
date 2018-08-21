@@ -13,6 +13,17 @@ html, body{
 
 }
 
+.int-image{
+    width:95%;
+    transition-duration: 1s;
+    transition-delay: .2s;
+}
+
+.int-image:hover{
+    width: 100%;
+    transition-duration: 1s;
+}
+
 /* Style all font awesome icons */
 .fa {
     padding: 20px;
