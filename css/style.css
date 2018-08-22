@@ -4389,6 +4389,7 @@ td.invert-image a img {
 	.agileinfo_new_products_grid_mobiles:nth-child(2) {
 		margin-bottom: 0;
 	}
+
 	.w3_hs_bottom_sub1 ul {
 		padding: 6.5em 0 0 !important;
 	}
@@ -4715,9 +4716,16 @@ td.invert-image a img {
 	.agile_ecommerce_tab_left h5 {
 		margin: 1.5em 0 0;
 	}
+
+    .agileinfo_new_products_grid:nth-child(1) {
+                margin-left: -3.5em; 
+    }
+
 	.agileinfo_new_products_grid:nth-child(2) {
 		margin: 2em 0;
+        margin-left: -3.5em; 
 	}
+
 	.w3agile_newsletter_left h3 {
 		font-size: 1.5em;
 	}
@@ -4742,6 +4750,8 @@ td.invert-image a img {
 	}
 	.agileinfo_new_products_grid:nth-child(3) {
 		margin: 0 0 2em;
+                margin-left: -3.5em; 
+
 	}
 	.w3_footer_grid:nth-child(2) {
 		margin: 2em 0;
@@ -4784,8 +4794,10 @@ td.invert-image a img {
 		width: 100%;
 	}
 	.agileinfo_new_products_grid_mobiles {
-		width: 100% !important;
+		width: 140% !important;
 	}
+
+
 	.mobiles_grid_pos {
 		right: 26%;
 	}
@@ -5186,6 +5198,7 @@ td.invert-image a img {
 	}
 }
 @media (max-width:375px){ 
+
 	#w3lssbmincart .sbmincart-item a { 
 		font-size: 0.9em;
 	}
@@ -5244,6 +5257,8 @@ td.invert-image a img {
 	}
 }
 @media (max-width:320px){ 
+
+
 	.header {
 		padding: 0.4em 0 0;
 	}
