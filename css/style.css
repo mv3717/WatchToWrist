@@ -13,6 +13,11 @@ html, body{
 
 }
 
+.single-left {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .sneak p{
     color: black;
     font-size: 0px;
@@ -721,6 +726,15 @@ li.w3pages .dropdown-menu > li > a:hover{
 	-o-background-size:cover;
 	-ms-background-size:cover;
 }
+
+.banner.banner10{
+	background:url(../images/banner.jpg) no-repeat center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
 /*-- agileits --*/
 .banner h3{
 	font-size: 2em;
@@ -867,11 +881,17 @@ li.w3pages .dropdown-menu > li > a:hover{
 	color:#3c43a4;
 }
 .simpleCart_shelfItem p{
-	font-size: 1.2em;
+	font-size: 3em;
     color: #212121;
     margin: 0.5em 0 1em;
     font-weight: 600;
+    text-align: center;
 }
+
+.simpleCart_shelfItem b{
+	color: black;
+}
+
 .simpleCart_shelfItem p span{
 	color: #999;
     font-size: .8em;
@@ -883,21 +903,26 @@ li.w3pages .dropdown-menu > li > a:hover{
 	font-style:normal;
 }
 .simpleCart_shelfItem button.w3ls-cart {
-    font-size: 20px;
-    color: #fff;
-    margin: 0;
+
+    text-align: center;
+    font-size: 25px;
+    color: #000;
+    width: 100%;
     text-decoration: none;
     text-transform: capitalize;
-    padding: 0em 1.5em;
+    padding: 0.1em 1.5em 0em 1.5em;
     background: transparent;
-    outline: none;
+    outline : solid;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	transition:.5s all;
 }
 .simpleCart_shelfItem button.w3ls-cart:hover{
-	background:#fff;
+	background:#000;
 	color:#fff;
+  outline : solid;
+  outline-color: #000;
+
 }
 /*-- image-hover --*/
 .w3_hs_bottom{
@@ -3027,10 +3052,12 @@ font-family: 'Source Sans Pro', sans-serif;
 /*-- //mail --*/
 /*-- single --*/
 .single-right h3{
-	font-size:1.5em;
+	font-size:3em;
 	color:#212121;
 	margin-bottom: 1em;
+  text-align: center;
 }
+
 .description{
 	margin:2em 0;
 }
