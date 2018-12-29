@@ -6,6 +6,9 @@
  * Copyright (C) 2014 http://0401morita.github.io/imagezoom-plugin A project by Yosuke Morita
  */
 (function($){
+
+
+
   var defaults = {
     cursorcolor:'255,255,255',
     opacity:0.5,

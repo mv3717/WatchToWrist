@@ -221,29 +221,96 @@
 					</script>
 				<!-- flexslider -->
 				<!-- zooming-effect -->
-					<script src="js/imagezoom.js"></script>
+
+        <script>
+
+        if(window.matchMedia("(min-width:800px)").matches) {
+          // Chargement de jQuery dans un nouvel élément <script> ajouté à la section <head>
+          var script1 = document.createElement('script');
+          script1.type='text/javascript';
+          script1.src = 'js/imagezoom.js';
+          script1.onload = function() {
+            // Lorsque jQuery est chargé...
+            // On fait la même chose : chargement dynamique // mais cette fois-ci avec jQuery (c'est plus simple)
+            $.getScript('js/imagezoom.js');
+          }
+          // Insertion dans le DOM de la balise script initiale
+          document.getElementsByTagName('head')[0].appendChild(script1);
+        }
+
+        </script>
+
+
+          <!-- <script src="js/imagezoom.js"></script> -->
+
 				<!-- //zooming-effect -->
 			</div>
 			<div class="col-md-8 single-right">
-				<h3>Rolex Gold 1980</h3>
+				<h3>1950s Cyma</h3>
 
         <div class="simpleCart_shelfItem">
-          <p><i class="item_price">£450.00</i></p>
-          <form action="#" method="post">
-            <input type="hidden" name="cmd" value="_cart">
-            <input type="hidden" name="add" value="1">
-            <input type="hidden" name="w3ls_item" value="Smart Phone">
-            <input type="hidden" name="amount" value="450.00">
+          <p><i class="item_price1">£450.00</i></p>
+          <form action="" method="">
             <button type="submit" class="w3ls-cart">Enquire to buy</button>
           </form>
         </div>
+
+        <br>
+
+        <hr />
+
+        <p class="quote">"Minimalist design, curved sunburst dial and ultra-thin case. Mid-century elegance at its finest."</p>
+
+        <hr />
+
+
 				<div class="description">
 					<h5><i>Description</i></h5>
-					<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-						eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-						Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-						odit aut fugit, sed quia consequuntur magni dolores eos qui
-						ratione voluptatem sequi nesciunt.</p>
+          <br>
+          <h4><i>About the Watch</i></h4>
+
+					<p>The epitome of a mid-century dress watch, this timepiece embodies timeless, understated elegance. The dial, due to its sunburst finish and curvature, reflects and distorts the light, giving the watch a strong and ever-changing visual presence. You will no doubt find yourself glancing down at the watch several times a day, not to tell the time, but to catch the glimmer of the dial in different light. The ultra-thin case means the watch comfortably sits on the wrist and fits easily under the cuff of a shirt, making it an ideal everyday watch.<br>          <br>
+
+
+The watch is powered by a Cyma caliber R486 movement. This movement was developed and produced fully in-house by Cyma from 1953 to 1960, during a period where many watch companies outsourced the production of their movements, and features a convenient 48 hours power reserve. The manual-winding movement, which gets its power from the daily winding of the watch, constitutes part of the charm of owning a vintage timepiece: it is for many enthusiasts a daily ritual which allows the wearer to truly engage with their timepiece and feel an organic connection with it. Like shifting between gears in a manual transmission car, or placing the needle on a spinning record, it is an obsolete yet satisfying act that deserves to be preserved.
+<br>          <br>
+
+The watch is paired with a genuine brown lizard strap, handmade in France, allowing it to be both elegant and casual.<br>
+</p>
+<br>
+
+<br>
+<h4><i>About the Brand</i></h4>
+
+<p>Founded by brothers Joseph and Theodore Schwob in 1862, the name Cyma has its roots in the French word “Cime”, meaning “Summit”, which reflects not only the company’s constant striving for perfection and timekeeping accuracy but also the inextricable link with its birthplace in the Jura Mountains of Switzerland.  Initially, it was the harshness of the climate in the high valleys of the Jura – buried for more than half the year beneath deep snow and frequently cut off from the outside world – that gave rise to watchmaking activity during the long winters of isolation.<br>          <br>
+
+
+From the early 20th century onwards, Cyma was one of the few Swiss companies which produced most of its own movements, when many other companies assembled movements procured from other companies and put them into cases with their name on the dial. This ensured a high level of control over the quality and accuracy of their timepieces. The mastery of modern manufacturing processes and in-house production eventually allowed Cyma to become the largest watch manufacturer in Switzerland by 1923.
+<br>          <br>
+
+Unfortunately, the advent of battery-powered quartz watches in the 1970s - which were both more precise and drastically more inexpensive than traditional mechanical watches - caused a decline of the Swiss watchmaking industry. Cyma shared the fate of many Swiss manufacturers during this period of crisis and filed for bankruptcy in 1978.
+<br></p>
+<br>
+<h4><i>Details</i></h4>
+
+<p>Maker: Cyma<br>
+Year: 1960s<br>
+Material: Stainless steel<br>
+Diameter: 34mm<br>
+Thickness: 8mm<br>
+Lug with: 18mm<br>
+Bracelet / Strap: Brown genuine lizard strap, handmade in France<br>
+Movement: Hand-wound mechanical movement<br>
+</p>
+<br>
+<h4><i>Condition & Returns</i></h4>
+
+<p>
+Text TBC
+<br>
+</p>
+
+
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -264,7 +331,7 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Contact</h3>
 					<ul class="address">
-						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">contact@watchtowrist.com</a></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:contact@watchtowrist.com">contact@watchtowrist.com</a></li>
 						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>+447936674577</li>
 					</ul>
 				</div>
@@ -306,21 +373,7 @@
 	</div>
 	<!-- //footer -->
 	<!-- cart-js -->
-	<script src="js/minicart.js"></script>
-	<script>
-        w3ls.render();
 
-        w3ls.cart.on('w3sb_checkout', function (evt) {
-        	var items, len, i;
-
-        	if (this.subtotal() > 0) {
-        		items = this.items();
-
-        		for (i = 0, len = items.length; i < len; i++) {
-        		}
-        	}
-        });
-    </script>
 	<!-- //cart-js -->
 </body>
 </html>

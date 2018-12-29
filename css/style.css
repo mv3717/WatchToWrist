@@ -881,12 +881,21 @@ li.w3pages .dropdown-menu > li > a:hover{
 	color:#3c43a4;
 }
 .simpleCart_shelfItem p{
-	font-size: 3em;
+	font-size: 1.2em;
     color: #212121;
     margin: 0.5em 0 1em;
     font-weight: 600;
     text-align: center;
 }
+
+.simpleCart_shelfItem .item_price1 {
+	font-size: 2em;
+    color: #212121;
+    margin: 0em 0em 1em;
+    font-weight: 600;
+    text-align: center;
+}
+
 
 .simpleCart_shelfItem b{
 	color: black;
@@ -906,22 +915,23 @@ li.w3pages .dropdown-menu > li > a:hover{
 
     text-align: center;
     font-size: 25px;
-    color: #000;
+    color: #fff;
     width: 100%;
     text-decoration: none;
     text-transform: capitalize;
-    padding: 0.1em 1.5em 0em 1.5em;
-    background: transparent;
+    padding: 0.2em 1.5em 0em 1.5em;
+    background: black;
     outline : solid;
+    outline-color: black;
 	-webkit-transition:.5s all;
 	-moz-transition:.5s all;
 	transition:.5s all;
 }
 .simpleCart_shelfItem button.w3ls-cart:hover{
-	background:#000;
-	color:#fff;
+	background:#fff;
+	color:#000;
   outline : solid;
-  outline-color: #000;
+  outline-color: #fff;
 
 }
 /*-- image-hover --*/
@@ -3052,8 +3062,17 @@ font-family: 'Source Sans Pro', sans-serif;
 /*-- //mail --*/
 /*-- single --*/
 .single-right h3{
-	font-size:3em;
+	font-size:3.2em;
 	color:#212121;
+	margin-bottom: 0em;
+  text-align: center;
+}
+
+.single-right .quote{
+	font-size:2em;
+	color:#212121;
+  margin-top: 1em;
+
 	margin-bottom: 1em;
   text-align: center;
 }
@@ -3068,7 +3087,7 @@ font-family: 'Source Sans Pro', sans-serif;
 }
 .description p{
         font-size: 1em;
-	color: #999;
+	color: #232323;
     line-height: 1.8em;
     margin: 1em 0 0;
 }
@@ -4849,8 +4868,13 @@ td.invert-image a img {
 		margin: 1em 0 0;
 	}
 	.single-right h3,.additional_info_grid h3,.review_grids h5 {
-		font-size: 1.3em;
+		font-size: 3em;
 	}
+
+  .simpleCart_shelfItem .item_price1 {
+  	font-size: 1.5em;
+
+  }
 	.color-quality-right {
 		margin-left: 4em;
 	}
@@ -5282,7 +5306,7 @@ td.invert-image a img {
 		letter-spacing: 1px;
 	}
 	.single-right h3, .additional_info_grid h3, .review_grids h5 {
-		font-size: 1.1em;
+		font-size: 2.5em;
 	}
 	.description {
 		margin: 1em 0;
