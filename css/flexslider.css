@@ -192,16 +192,51 @@ html[xmlns] .flexslider .slides {
   overflow: hidden;
 }
 .flex-control-thumbs li {
-  padding-right: 2px;
-  padding-top: 5px;
-  width: 33.3%;
+  margin-left: 0px;
+  padding-right: 0px;
+  padding-top: 2px;
+  width: 33.33%;
   float: center;
   margin: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+
+.flex-control-thumbs li:nth-child(1){
+  padding-top: 10px;
   padding-left: 0px;
+  padding-right: 8px;
 }
+
+.flex-control-thumbs li:nth-child(3){
+  padding-left: 8px;
+  padding-right: 0px;
+}
+
 .flex-control-thumbs li:nth-child(4){
-  margin: 0px;
+  padding-left: 0px;
+  padding-right: 8px;
 }
+
+.flex-control-thumbs li:nth-child(6){
+  padding-left: 8px;
+  padding-right: 0px;
+}
+
+.flex-control-thumbs li:nth-child(7){
+  padding-left: 0px;
+  padding-right: 8px;
+}
+
+.flex-control-thumbs li:nth-child(9){
+  padding-left: 8px;
+  padding-right: 0px;
+}
+
+
+
+
 .flex-control-thumbs img {
   width: 100%;
   height: auto;

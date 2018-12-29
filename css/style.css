@@ -678,7 +678,7 @@ li.w3pages .dropdown-menu > li > a:hover{
 /*-- //navigation --*/
 /*-- banner --*/
 .banner{
-	background:url(../images/cover.jpg) no-repeat center 0px;
+	background:url(../images/covertest.jpg) no-repeat center 0px;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -883,16 +883,16 @@ li.w3pages .dropdown-menu > li > a:hover{
 .simpleCart_shelfItem p{
 	font-size: 1.2em;
     color: #212121;
-    margin: 0.5em 0 1em;
+    margin: 0.55em 0 2em;
     font-weight: 600;
     text-align: center;
 }
 
 .simpleCart_shelfItem .item_price1 {
 	font-size: 2em;
-    color: #212121;
-    margin: 0em 0em 1em;
-    font-weight: 600;
+    color: #555555;
+    margin: 0em 0em 0em;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -1393,8 +1393,8 @@ ul.wmuSliderPagination {
     font-size: 1em;
     letter-spacing: 2px;
     color: #000;
-    background: url(../images/img-sp.png) no-repeat 112px -10px;
-    padding: 0 45px 5px 0;
+    background: url(../images/img-sp.png) no-repeat 112px -8px;
+    padding: 2px 45px 5px 0;
 }
 
 .team-bottom2 a{
@@ -3077,7 +3077,28 @@ font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+
 .description{
+height: 600px;
+overflow:auto;
 	margin:2em 0;
 }
 .description h5{
