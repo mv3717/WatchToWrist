@@ -45,7 +45,11 @@ html, body{
 }
 
 #cyma:hover {
-    content: url('../images/cyma/cyma8.jpg');
+    content: url('../images/cyma/cyma1.jpg');
+}
+
+#gruen:hover {
+    content: url('../images/gruen/gruen2.jpg');
 }
 
 /* Add a hover effect if you want */
